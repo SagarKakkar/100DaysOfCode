@@ -1,6 +1,6 @@
 class ValidPalindrome {
     public boolean isPalindrome(String s) {
-        //O(n) time and O(1) space
+        //Two-pointer Approach - O(n) time and O(1) space
         int start = 0;
         int end = s.length() - 1;
         while(start < end){
